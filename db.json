@@ -1,0 +1,32 @@
+{
+  "goals": [
+    {
+      "id": "3b1f",
+      "description": "do push ups",
+      "category": "Flexibility",
+      "repitions": "30 times",
+      "achieved": true
+    },
+    {
+      "id": "54fc",
+      "description": "run",
+      "category": "Cardio",
+      "repitions": "90",
+      "achieved": true
+    },
+    {
+      "id": "8881",
+      "description": "do some exercises",
+      "category": "Flexibility",
+      "repitions": "30 minutes",
+      "achieved": true
+    },
+    {
+      "id": "75f7",
+      "description": "Run 5 kilometers",
+      "category": "Flexibility",
+      "repitions": "20 times",
+      "achieved": false
+    }
+  ]
+}

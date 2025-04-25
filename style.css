@@ -1,0 +1,60 @@
+body {
+}
+input {
+  display: block;
+}
+select {
+  display: block;
+}
+.goal_el {
+  padding: 10px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goal_el em {
+  margin: 0px 15px;
+  font-weight: bolder;
+}
+.goal_el button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-left: 20px;
+}
+.card {
+  width: 500px;
+  margin: auto;
+  border: 5px blue solid;
+  padding: 20px;
+  color: grey;
+}
+h1 {
+  color: black;
+}
+form button {
+  width: 70%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+form Select {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.output {
+  color: black;
+}
