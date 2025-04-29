@@ -5,27 +5,42 @@
       "description": "do push ups",
       "category": "Flexibility",
       "repitions": "30 times",
-      "achieved": true
+      "achieved": false
     },
     {
       "id": "54fc",
       "description": "run",
       "category": "Cardio",
       "repitions": "90",
-      "achieved": true
+      "achieved": false
     },
     {
       "id": "8881",
       "description": "do some exercises",
       "category": "Flexibility",
       "repitions": "30 minutes",
-      "achieved": true
+      "achieved": false
     },
     {
       "id": "75f7",
       "description": "Run 5 kilometers",
       "category": "Flexibility",
       "repitions": "20 times",
+      "achieved": true
+    },
+    {
+      "id": "9d57",
+      "description": "run 5 miles",
+      "category": "Strength Training",
+      "repitions": "everyday",
+      "achieved": true
+    },
+
+    {
+      "id": "2c92",
+      "description": "run 5 kilometers",
+      "category": "Cardio",
+      "repitions": "5 times",
       "achieved": false
     }
   ]

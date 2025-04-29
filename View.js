@@ -35,6 +35,7 @@ export const View = (() => {
 
     if (description == "" || category == "" || repitions == "") {
       alert("Add value that are missing");
+      return "";
     }
 
     return {

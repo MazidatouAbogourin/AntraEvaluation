@@ -7,8 +7,10 @@ const Controller = ((api, model, view) => {
   const addGoal = (e) => {
     e.preventDefault();
     const getInputValues = view.getValues();
-    console.log(Object.keys(getInputValues).length);
-    console.log("Values ", getInputValues);
+    if (getInputValues == "") {
+      view.clearInput();
+      return;
+    }
     api.createGoal(getInputValues).then((newGoal) => {
       view.clearInput();
       state.addgoalList(newGoal);

@@ -8,10 +8,8 @@ select {
 }
 .goal_el {
   padding: 10px;
-  background-color: lightgray;
+  background-color: rgb(234, 230, 230);
   margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .goal_el em {
@@ -24,6 +22,8 @@ select {
   padding: 10px;
   border: none;
   margin-left: 20px;
+  border-radius: 5px;
+  text-align: left;
 }
 .card {
   width: 500px;
@@ -34,24 +34,27 @@ select {
 }
 h1 {
   color: black;
+  text-align: center;
 }
 form button {
-  width: 70%;
+  width: 100%;
   padding: 10px;
   background-color: green;
   color: white;
   border: none;
+  border-radius: 5px;
 }
 
 form input {
   padding: 10px;
   border: 1px solid #ccc;
-  width: 70%;
+  width: 90%;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 form Select {
-  width: 70%;
+  width: 90%;
   padding: 10px;
   margin-bottom: 15px;
 }
